@@ -1,0 +1,35 @@
+{
+  "name": "passport-verify-answer",
+  "version": "0.1.0",
+  "description": "Verify a signed answer claim from a Passport connector: signature, key, audience, time window.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "license": "MIT",
+  "types": "./index.d.ts",
+  "keywords": [
+    "mcp",
+    "jws",
+    "es256",
+    "webcrypto",
+    "verify",
+    "passport"
+  ]
+}
