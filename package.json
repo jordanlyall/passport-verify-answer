@@ -31,5 +31,10 @@
     "webcrypto",
     "verify",
     "passport"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanlyall/passport-verify-answer.git"
+  },
+  "homepage": "https://github.com/jordanlyall/passport-verify-answer#readme"
 }
